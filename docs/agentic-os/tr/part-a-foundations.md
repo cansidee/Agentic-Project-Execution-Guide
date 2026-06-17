@@ -1,5 +1,7 @@
 # Part A — Foundations
 
+🌐 [English](../en/part-a-foundations.md) · Türkçe
+
 *[← INDEX](INDEX.md) · Sonraki: [Part B — Discovery & Definition](part-b-discovery-definition.md)*
 
 ---

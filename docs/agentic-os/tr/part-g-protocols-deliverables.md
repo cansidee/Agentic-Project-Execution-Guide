@@ -1,5 +1,7 @@
 # Part G — Protocols & Deliverables
 
+🌐 [English](../en/part-g-protocols-deliverables.md) · Türkçe
+
 *[← Part F](part-f-agentic-os-layer.md) · [INDEX](INDEX.md)*
 
 > **Bu Part doruk noktasıdır:** Discovery'den final implementation prompt'una giden standart

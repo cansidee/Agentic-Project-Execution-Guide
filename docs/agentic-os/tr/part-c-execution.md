@@ -1,5 +1,7 @@
 # Part C — Execution
 
+🌐 [English](../en/part-c-execution.md) · Türkçe
+
 *[← Part B](part-b-discovery-definition.md) · Sonraki: [Part D — Quality & Operability](part-d-quality-operability.md)*
 
 > **Önkoşul:** Definition of Ready (Part B §B5) geçilmiş olmalı.

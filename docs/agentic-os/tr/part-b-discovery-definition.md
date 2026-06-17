@@ -1,5 +1,7 @@
 # Part B — Discovery & Definition
 
+🌐 [English](../en/part-b-discovery-definition.md) · Türkçe
+
 *[← Part A](part-a-foundations.md) · Sonraki: [Part C — Execution](part-c-execution.md)*
 
 > **Bu Part'ın amacı:** Koda başlamadan *ne* inşa edileceğini sabitlemek. En pahalı hata yanlış

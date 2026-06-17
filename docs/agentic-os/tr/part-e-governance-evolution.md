@@ -1,5 +1,7 @@
 # Part E — Governance & Evolution
 
+🌐 [English](../en/part-e-governance-evolution.md) · Türkçe
+
 *[← Part D](part-d-quality-operability.md) · Sonraki: [Part F — Agentic OS Layer](part-f-agentic-os-layer.md)*
 
 > **Bu Part sistemin zamanla çürümesini önler.** Dependency hijyeni, refactor disiplini,

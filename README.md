@@ -4,10 +4,12 @@
 > agents — Claude, GPT, Gemini, Qwen, DeepSeek, or any open-source agent framework — with **low
 > ambiguity** and **high verifiability**.
 
+🌐 **Languages / Diller:** [English](docs/agentic-os/en/INDEX.md) · [Türkçe](docs/agentic-os/tr/INDEX.md)
+
 This is **not** a "Claude Code usage manual." Claude Code is treated as *one example
-implementation* of the concepts described here. The backbone is independent of any model or
-tool: you can swap the mechanisms (skills, hooks, permissions) for equivalents in your own stack
-and the framework still holds.
+implementation* of the concepts here. The backbone is independent of any model or tool: you can
+swap the mechanisms (skills, hooks, permissions) for equivalents in your own stack and the
+framework still holds.
 
 ---
 
@@ -63,21 +65,24 @@ vendor's feature set.
 
 ## Repository structure
 
-The guide is split into seven Parts under [`docs/agentic-os/`](docs/agentic-os/):
+The guide is split into seven Parts, available in **English** (`docs/agentic-os/en/`) and
+**Türkçe** (`docs/agentic-os/tr/`). English links below:
 
 | Part | Title | Problem it solves |
 |---|---|---|
-| [INDEX](docs/agentic-os/INDEX.md) | Entry point + mechanism map | How to use the guide (humans **and** LLMs) |
-| [A](docs/agentic-os/part-a-foundations.md) | **Foundations** | How to think about agents; control plane; the maturity model |
-| [B](docs/agentic-os/part-b-discovery-definition.md) | **Discovery & Definition** | Prevents building the wrong thing; pins down the *what* |
-| [C](docs/agentic-os/part-c-execution.md) | **Execution** | Task decomposition, orchestration patterns, handoffs, workflow |
-| [D](docs/agentic-os/part-d-quality-operability.md) | **Quality & Operability** | Test strategy, project-type gates, observability, release |
-| [E](docs/agentic-os/part-e-governance-evolution.md) | **Governance & Evolution** | Dependency/refactor policy, traceability, security |
-| [F](docs/agentic-os/part-f-agentic-os-layer.md) | **Agentic OS Layer** | Knowledge layer, cost/context economics, AI features, human-in-the-loop |
-| [G](docs/agentic-os/part-g-protocols-deliverables.md) | **Protocols & Deliverables** | LLM interview, final-prompt protocol, failure modes, archetypes, checklists |
+| [INDEX](docs/agentic-os/en/INDEX.md) | Entry point + mechanism map | How to use the guide (humans **and** LLMs) |
+| [A](docs/agentic-os/en/part-a-foundations.md) | **Foundations** | How to think about agents; control plane; the maturity model |
+| [B](docs/agentic-os/en/part-b-discovery-definition.md) | **Discovery & Definition** | Prevents building the wrong thing; pins down the *what* |
+| [C](docs/agentic-os/en/part-c-execution.md) | **Execution** | Task decomposition, orchestration patterns, handoffs, workflow |
+| [D](docs/agentic-os/en/part-d-quality-operability.md) | **Quality & Operability** | Test strategy, project-type gates, observability, release |
+| [E](docs/agentic-os/en/part-e-governance-evolution.md) | **Governance & Evolution** | Dependency/refactor policy, traceability, security |
+| [F](docs/agentic-os/en/part-f-agentic-os-layer.md) | **Agentic OS Layer** | Knowledge layer, cost/context economics, AI features, human-in-the-loop |
+| [G](docs/agentic-os/en/part-g-protocols-deliverables.md) | **Protocols & Deliverables** | LLM interview, final-prompt protocol, failure modes, archetypes, checklists |
+
+> 🇹🇷 Türkçe sürüm birebir aynı yapıdadır: [`docs/agentic-os/tr/INDEX.md`](docs/agentic-os/tr/INDEX.md)
 
 ### Two folders — don't confuse them
-- **`docs/agentic-os/`** = *this guide* (reference material; changes rarely; generic).
+- **`docs/agentic-os/`** = *this guide* (reference material; changes rarely; generic; bilingual).
 - **`docs/agent/`** = the *runtime control plane* (project-specific live artifacts: `TASKS.md`,
   `DECISIONS.md`, `ARCHITECTURE.md`, `handoffs/`, …). Filled in per project. The guide tells you
   *how* to fill it; the control plane is the filled-in result.
@@ -104,16 +109,7 @@ Small internal tools can comfortably stop at L2–L3. Large SaaS/platform work t
 ## How to use this guide
 
 ### For humans — reading order
-1. **Part A — Foundations**: mental model, control plane, locate your maturity level.
-2. **Part B — Discovery & Definition**: lock down *what* you're building before any code.
-3. **Part C — Execution**: decomposition, orchestration, handoffs, end-to-end workflow.
-4. **Part D — Quality & Operability**: test strategy, type-specific gates, observability, release.
-5. **Part E — Governance & Evolution**: dependency/refactor policy, traceability, security.
-6. **Part F — Agentic OS Layer**: knowledge/memory, context economics, AI features, HITL.
-7. **Part G — Protocols & Deliverables**: interview protocol, final-prompt generation, failure
-   modes, archetype templates, checklists.
-
-First time? **Part A → Part B → Part G** is enough. Open the rest as needed.
+`INDEX → A → B → … → G`. First time? **Part A → Part B → Part G** is enough; open the rest as needed.
 
 ### For LLMs — operating protocol
 If a user hands you this guide while discussing a project:
@@ -133,15 +129,15 @@ If a user hands you this guide while discussing a project:
 ## Quick start
 
 ```bash
-# Read the entry point
-open docs/agentic-os/INDEX.md     # or just browse it on GitHub
+# Read the entry point (English or Turkish)
+open docs/agentic-os/en/INDEX.md     # or docs/agentic-os/tr/INDEX.md — or browse on GitHub
 
 # Adopt it in your own project: create the runtime control plane
 mkdir -p docs/agent/handoffs
 # then fill in PRODUCT_BRIEF.md, DOMAIN_MODEL.md, TASKS.md, DECISIONS.md … (see Part B & INDEX §5)
 ```
 
-→ **Start here: [docs/agentic-os/INDEX.md](docs/agentic-os/INDEX.md)**
+→ **Start here: [English INDEX](docs/agentic-os/en/INDEX.md) · [Türkçe INDEX](docs/agentic-os/tr/INDEX.md)**
 
 ---
 
@@ -149,7 +145,7 @@ mkdir -p docs/agent/handoffs
 
 This guide is intended to be a **living, reusable reference** that grows over time. Issues and
 pull requests that sharpen the operational guidance, add archetypes, or improve the
-model-agnostic mapping are welcome.
+model-agnostic mapping are welcome. Please keep the English and Turkish versions in sync.
 
 ## License
 

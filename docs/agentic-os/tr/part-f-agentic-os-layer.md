@@ -1,5 +1,7 @@
 # Part F — Agentic OS Layer
 
+🌐 [English](../en/part-f-agentic-os-layer.md) · Türkçe
+
 *[← Part E](part-e-governance-evolution.md) · Sonraki: [Part G — Protocols & Deliverables](part-g-protocols-deliverables.md)*
 
 > **Bu Part, L4→L5 farkıdır.** Tek-tek ajanları gerçek bir işletim sistemine çeviren katman:

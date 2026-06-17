@@ -1,5 +1,7 @@
 # Agentic Software Engineering Operating System (Agentic-OS)
 
+🌐 [English](../en/INDEX.md) · Türkçe
+
 > **Bir cümlede:** Büyük ölçekli yazılım projelerini LLM ajanlarıyla (Claude, GPT, Gemini,
 > Qwen, DeepSeek, OSS agent framework'leri) düşük belirsizlik ve yüksek doğrulanabilirlikle
 > yürütmek için **model-agnostik** bir operasyon çerçevesi.

@@ -1,5 +1,7 @@
 # Part D — Quality & Operability
 
+🌐 [English](../en/part-d-quality-operability.md) · Türkçe
+
 *[← Part C](part-c-execution.md) · Sonraki: [Part E — Governance & Evolution](part-e-governance-evolution.md)*
 
 > **Bu Part "done"u tanımlar.** Done = kod yazıldı değil; test edildi + gözlemlenebilir +
